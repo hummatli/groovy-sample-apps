@@ -9,3 +9,13 @@ println b.getClass()
 
 b = "sds"
 println b.getClass()
+
+
+def c = null
+
+println c.getClass().getName() //Null Object
+
+
+def d
+
+println d.getClass().getName() //Null Object
